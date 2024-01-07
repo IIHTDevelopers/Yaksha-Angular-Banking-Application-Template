@@ -11,8 +11,6 @@ export class BeneficiaryManagementComponent implements OnInit {
   selectedBeneficiary: Beneficiary | null = null;
   isAddMode: boolean = false;
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
