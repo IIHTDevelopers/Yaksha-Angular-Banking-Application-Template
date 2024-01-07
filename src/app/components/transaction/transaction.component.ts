@@ -14,10 +14,6 @@ export class TransactionComponent implements OnInit {
   amount: number = 0;
   transactionForm!: FormGroup;
 
-  constructor(
-  ) {
-  }
-
   ngOnInit(): void {
   }
 
