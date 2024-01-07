@@ -9,8 +9,6 @@ import { Account } from '../../models/account.model';
 export class AccountDetailsComponent implements OnInit {
   account: Account | null = null;
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
